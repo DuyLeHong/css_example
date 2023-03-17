@@ -1,0 +1,55 @@
+.dangnhap {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ececec;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.dangnhap>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.dangnhap>div>input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    width: 190px;
+    height: 40px;
+    border: 1px solid grey;
+}
+
+.dangnhap input:hover {
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.dangnhap>div>button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 205px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #00B0F0;
+    color: white;
+    font-weight: bold;
+}
+
+.dangnhap>p>a {
+    display: block;
+    margin-left: -90px;
+}
